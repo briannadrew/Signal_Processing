@@ -1,0 +1,45 @@
+Script started on Tue 24 Mar 2020 10:18:37 PM EDT
+]0;briannadrew@loki:~/lab5[?1034h[briannadrew@loki lab5]$ ./lab5
+[3;J[H[2J
+Waiting for a signal....
+
+^C
+This is the [0;31mfirst[0m time that you pressed CTRL-C
+Waiting for another signal....
+
+^C
+This is the [0;32msecond[0m time that you pressed CTRL-C
+Waiting for another signal....
+
+^C
+This is the [0;33mthird[0m time that you pressed CTRL-C
+Waiting for another signal....
+
+^C
+This is the [0;34mfourth[0m time that you pressed CTRL-C
+Waiting for another signal....
+
+^C 
+This is the [0;35mfifth[0m time that you pressed CTRL-C
+SIGINT Maximum of 5 reached. Next SIGINT will terminate the program
+Waiting for a signal....
+
+^C
+[1;32mProgram terminating....[0m
+
+]0;briannadrew@loki:~/lab5[briannadrew@loki lab5]$ ./lab5
+[3;J[H[2J
+Waiting for a signal....
+
+^\ received SIGQUIT
+
+I am the Child PID:8626 and I am sending a signal to my Parent PID:8617
+
+I am the Parent. Signal received from the Child....
+
+[1;32mProgram terminating....[0m
+
+]0;briannadrew@loki:~/lab5[briannadrew@loki lab5]$ exit
+exit
+
+Script done on Tue 24 Mar 2020 10:20:22 PM EDT
